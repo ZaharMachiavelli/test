@@ -17,7 +17,7 @@ app.use(fileUpload({}));
 app.use("/api", router);
 // middleware с ошибками должен обязательно ргеитсрироваться в самом конце
 app.use(errorHandler);
-
+//fjfjfjf
 app.get("/", (req, res) => {
     res.status(200).json({ message: "ДЖИГУРДАААААА" });
 });
